@@ -10,6 +10,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.List;
 
 @Service
 public class LibroService {
@@ -32,6 +33,10 @@ public class LibroService {
         }
         // Guardar el libro en la base de datos
         return libroRepository.save(libro);
+    }
+
+    public List<Libro> listarLibros(){
+        return libroRepository.findAll();
     }
 
 

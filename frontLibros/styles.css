@@ -1,0 +1,81 @@
+body {
+    background-color: #f0f8ff; /* Color de fondo más claro */
+    background-image: url(libb.png);
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* Evitar que la imagen se repita */
+    background-size: cover; /* Ajustar la imagen para que cubra toda la pantalla */
+}
+  
+  .card {
+    border-radius: 10px;
+  }
+  
+  .card-header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
+  .btn-block {
+    border-radius: 5px;
+  }
+  
+  .list-group-item {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background-color: #e9f7ef; /* Fondo verde claro */
+    color: #2c3e50; /* Texto oscuro */
+  }
+  
+  .list-group-item:last-child {
+    border-bottom: none;
+  }
+  
+  .list-group-item:nth-child(odd) {
+    background-color: #d1f2eb; /* Fondo verde más claro para filas impares */
+  }
+  
+  .list-group-item:nth-child(even) {
+    background-color: #a3e4d7; /* Fondo verde más oscuro para filas pares */
+  }
+  
+  .card-header.bg-primary {
+    background-color: #3498db; /* Azul */
+  }
+  
+  .card-header.bg-secondary {
+    background-color: #2ecc71; /* Verde */
+  }
+  
+  h1, h2 {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="file"] {
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #28a745; /* Verde */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #218838; /* Verde más oscuro */
+  }
